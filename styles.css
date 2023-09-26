@@ -1,14 +1,49 @@
-* {
-color: purple;
+/* THE universal selector (*) denotes all*/
+/* * {
+color:aquamarine;
+}*/
+/* #title is an id and cannot be repeated like class selectors */
+#title {
+    background-color: brown;
 }
-.alert-text {
+/* .norm-alert, .extra-alert, .alert-text are all class selectors and can have multiple elements in the html file*/
+
+.extra-alert {
+    color:aqua;
+}
+/* class selector attributes can be changed with one declaration*/
+.alert-text,
+.alerta {
     color: tan;
+    background-color: blue;
 }
-div {
-    color: white;
+/*div {
+    color: orangered;
     background-color: black;
+}
+*/
+/* you can allocate selectors to elements that have two classes or a class and an id */
+.either.or {
+    color:hotpink
+}
+.either#And {
+    color:chartreuse
+}
+.Main .subone .subtwo {
+    color:greenyellow;
+    background-color:darkgray;
+}
+p{
+    /* hex */
+    color: #1100ff;
 }
 
 p{
-    color: red;
+    /* rgb */
+    color: rgb(100, 0, 127);
+}
+
+p{
+    /* hsl */
+    color: hsl(15, 82%, 56%);
 }
