@@ -1,7 +1,9 @@
 * {
 color: purple;
 }
-
+.alert-text {
+    color: tan;
+}
 div {
     color: white;
     background-color: black;
